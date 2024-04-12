@@ -1,0 +1,57 @@
+.button--hero {
+  border: none;
+  display: block;
+  position: relative;
+  padding: 0.85em 2.2em;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  overflow: hidden;
+  color: white;
+  z-index: 1;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 10px;
+  background: rgb(0, 4, 255);
+  text-decoration: none;
+  text-align: center;
+}
+
+.button--hero span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: -1;
+  border: 1px solid rgb(0, 4, 255);
+}
+
+.button--hero span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 8%;
+  height: 500%;
+  background: var(--lightgray);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-60deg);
+  transition: all 0.3s;
+}
+
+.button--hero:hover span::before {
+  transform: translate(-50%, -50%) rotate(-90deg);
+  width: 100%;
+  background: white;
+}
+
+.button--hero:hover {
+  color: rgb(0, 4, 255);
+}
+
+.button--hero:active span::before {
+  background: #002aa7;
+}

@@ -1,0 +1,68 @@
+.productSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+.productSecBox {
+  display: flex;
+  width: 1000px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+.productSecBoxItem {
+  width: 300px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  margin: 5px 0;
+}
+.productSecBoxItem::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.7;
+  background-color: black;
+  top: 0;
+  left: 0;
+}
+.productSecBoxItem h2 {
+  z-index: 1;
+  width: 200px;
+  text-align: center;
+}
+.itemLeft {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/img/vertical1.jpg);
+}
+.itemLeft:hover {
+  background-size: 120%;
+}
+.itemCenter {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/img/vertical2.jpg);
+}
+.itemCenter:hover {
+  background-size: 120%;
+}
+.itemRight {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/img/vertical3.jpg);
+}
+.itemRight:hover {
+  background-size: 120%;
+}
+@media (max-width: 1024px) {
+  .productSecBox {
+    width: 70%;
+  }
+}
