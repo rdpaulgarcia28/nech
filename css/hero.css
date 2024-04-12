@@ -44,6 +44,16 @@
 .button--hero {
   width: 220px;
 }
+.hero_buttons {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.hero_buttons a {
+  margin: 0 10px;
+}
 
 /*MOVIL TABLET */
 @media (max-width: 1024px) {
