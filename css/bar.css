@@ -27,6 +27,7 @@
 .bar-logo img {
   background-color: white;
   border-radius: 50%;
+  padding: 5px;
 }
 
 .bar-menu {

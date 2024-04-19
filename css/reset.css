@@ -188,7 +188,22 @@ transform: translate(50%,-50%); X, Y*/
     transition-property: opacity, transform;
     transition-delay: 1.5s;
 */
-/*MOVIL GRANDE
+
+/* 2° FORMA PARA CENTRAR ALGO EN POSICION ADSOLUTA O RELATIVA */
+/*
+  position: absolute; Posición absoluta 
+  top: 0;  Alinea el borde superior con el borde superior del contenedor 
+  bottom: 0;  Alinea el borde inferior con el borde inferior del contenedor 
+  left: 0;  Alinea el borde izquierdo con el borde izquierdo del contenedor 
+  right: 0;  Alinea el borde derecho con el borde derecho del contenedor 
+  margin: auto;  Centra horizontal y verticalmente 
+  width: fit-content;  Establece el ancho según su contenido 
+  height: fit-content; Establece la altura según su contenido 
+  */
+
+/*
+MOVIL GRANDE
 @media (max-width: 425px) {
  
-}*/
+}
+*/

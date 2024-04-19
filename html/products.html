@@ -4,12 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productos</title>
+    <meta charset="UTF-8" prefix="og:http://ogp.me/ns#" />
+    <link rel="shortcut icon" href="assets/png/icon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Facebook Opengraph integration: https://developers.facebook.com/docs/sharing/opengraph -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <!-- Twitter Cards integration: https://dev.twitter.com/cards/  -->
+    <meta name="twitter:card" content="" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:description" content="" />
+    <meta name="twitter:image" content="" />
+    <!-- Google Metas -->
+    <!-- Google Fonts -->
+    <!-- CSS DOCUMENTS -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/bar.css" />
+    <link rel="stylesheet" href="../css/buttons.css" />
+    <link rel="stylesheet" href="../css/products.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+    <!-- Google Ads -->
+    <!-- Facebook Pixel Code -->
+    <!-- Blobz -->
   </head>
   <body>
     <header>
       <menu class="bar" id="inicio">
         <div class="bar-logo">
-          <img src="assets/png/logo2-removebg-preview.png" alt="" />
+          <img src="../assets/png/Logo.jpg" alt="" />
         </div>
         <div class="bar-menu">
           <nav class="conteiner-menu-items">
@@ -41,14 +71,272 @@
         <aside class="panel" id="panel">
           <nav class="menu">
             <a href="../index.html" id="btn-panel-1">Inicio</a>
-            <a href="html/buy.html" id="btn-panel-2">¿Como Comprar?</a>
+            <a href="../html/howToBuy.html" id="btn-panel-2">¿Como Comprar?</a>
             <a href="../index.html" id="btn-panel-4">Quines somos</a>
             <a href="../index.html" id="btn-panel-5">Promociones</a>
             <a href="../index.html" id="btn-panel-6">Contacto</a>
           </nav>
         </aside>
       </menu>
+      <section class="hero_products">
+        <h1 class="hero_products_title">Productos</h1>
+      </section>
     </header>
-    <main></main>
+    <main>
+      <h2 class="titles">Cigüeñales</h2>
+      <section class="products">
+        <span class="slider_button_right" id="firstBtnLeft">&#60</span>
+        <section class="products_slider">
+          <div class="products_container_slides" id="container_first">
+            <article class="products_slide" id="products_slide">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_669831-MLM74415405349_022024-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cigueñal Chevy 1.6</h3><br>
+              <span class="products_slides_price">$3,200 <span>mx</span></span>
+              <a href="../html/P0001.html" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_973567-MLM74398517705_022024-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cigueñal Perkins Zz90238, Cat 3054</h3>
+              <span class="products_slides_price">$12,000 <span>mx</span></span>
+              <span href="" class="products_slides_button" onclick="infoProduct('P0002')">Ver Producto</span>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide">
+              <img
+              src="https://http2.mlstatic.com/D_NQ_NP_975906-MLM72126800290_102023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cigüeñal Nuevo Std Chevrolet Beat 1.2</h3>
+              <span class="products_slides_price">$3,250 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_607457-MLM71529269415_092023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cigueñal Nuevo H100 Diesel 2.5</h3>
+              <span class="products_slides_price">$6,900 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_630052-MLM72391586963_102023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cigueñal 4g63 Montacarga 7 Tornillos</h3>
+              <span class="products_slides_price">$7,900<span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_974389-MLM72391592175_102023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cigueñal 4g64 Montacargas 7 Agujeros</h3>
+              <span class="products_slides_price">$7,950<span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+          </div>
+        </section>
+        <span class="slider_button_left" id="firstBtnRight">&#62</span>
+      </section>
+      <h2 class="titles">Cabezas</h2>
+      <section class="products">
+        <span class="slider_button_right" id="secondBtnLeft">&#60</span>
+        <section class="products_slider">
+          <div class="products_container_slides" id="container_second">
+            <article class="products_slide" id="products_slide_second">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_638853-MLM74220976010_012024-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cabeza Nissan Qr25 Altima Sentra Np300 2.5l</h3>
+            <span class="products_slides_price">$14,800<span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide_second">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_813150-MLM72325667584_102023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+            <h3 class="products_slides_title">Cabeza Nissan Diesel D23 Años 2016 A 2023 Frontier Diésel</h3>
+              <span class="products_slides_price">$19,500 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide_second">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_647797-MLM74314312194_022024-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cabeza Nueva Chevrolet Beat 1.2</h3>
+              <span class="products_slides_price">$9,300 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide_second">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_742496-MLM72390929497_102023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cabeza Nissan Diesel 2016 Al 2023 D23 Frontier</h3>
+              <span class="products_slides_price">$13,500 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide_second">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_822968-MLM44891975847_022021-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cabeza Kubota</h3>
+              <span class="products_slides_price">$6,500 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+            <article class="products_slide" id="products_slide_second">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_758075-MLM71760000005_092023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cabeza 22r Piston Boludo Conversion (Reacondicionado)</h3>
+              <span class="products_slides_price">$6,300 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+          </div>
+        </section>
+        <span class="slider_button_left" id="secondBtnRight">&#62</span>
+      </section>      
+      <h2 class="titles">Kit de Reparacion</h2>
+      <section class="products">
+        <span class="slider_button_right" id="thirdBtnLeft">&#60</span>
+        <section class="products_slider">
+          <div class="products_container_slides" id="container_third">
+            <article class="products_slide" id="products_slide_third">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_634339-MLM74417092647_022024-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Enfriador De Aceite Ecotec Sonic Cruze, Trax, 1.6. 1.8</h3>
+              <span class="products_slides_price">$800 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <article class="products_slide" id="products_slide_third">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_800392-MLM73725155909_122023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Anillos De Piston Chevrolet Corsa,tornado 1.8 Lts</h3>
+              <span class="products_slides_price">$410 <span>mx</span></span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <article class="products_slide" id="products_slide_third">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_701309-MLM75494400253_032024-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Cartucho Turbo Tfsi 2.0 K03 A3, Passat</h3>
+              <span class="products_slides_price">2,600</span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <article class="products_slide" id="products_slide_third">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_652886-MLM75411343137_032024-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Llave Impactó 3/4 3100nm Inalambrica</h3>
+              <span class="products_slides_price">7,900</span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <article class="products_slide" id="products_slide_third">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_927964-MLM48970205226_012022-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Tapa Punterias 2.7 Toyota</h3>
+              <span class="products_slides_price">600</span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+            <article class="products_slide" id="products_slide_third">
+              <img
+                src="https://http2.mlstatic.com/D_NQ_NP_635383-MLM54944802422_042023-O.webp"
+                class="products_slides_img"
+                alt=""
+              />
+              <h3 class="products_slides_title">Engrane Tiempo Mazda 2.2 F2</h3>
+              <span class="products_slides_price">1,800</span>
+              <a href="" class="products_slides_button">Ver Producto</a>
+            </article>
+          </div>
+        </section>
+        <span class="slider_button_left" id="thirdBtnRight">&#62</span>
+      </section>
+      <a href="" class="button--hero products--btn">Ver Todos Los Productos<span></span></a>
+    </main>
+        <footer class="footer">
+      <div class="conteiner_footer">
+        <div class="datos_direcction">
+          <span class="span_magin">NECH Refracionaria De Chihuahua</span>
+          <span class="span_magin" style="font-weight: bold"
+            >La Mejor Calidad Precio Del Estado</span
+          >
+          <span class="span_magin">Hola@nech.com.mx</span>
+          <span class="conteiner_icons">
+            <a href=""
+              ><img src="assets/png/facebook.png" alt="" class="icons"
+            /></a>
+            <a href=""
+              ><img src="assets/png/instagram.png" alt="" class="icons"
+            /></a>
+            <a href=""
+              ><img src="assets/png/tiktok.png" alt="" class="icons"
+            /></a>
+            <span></span>
+            <a
+              class="conteiner_icons--whatsapp"
+              href="https://api.whatsapp.com/send?phone=5216141495705&text=hola%20me%20interesa%20comprar%20uno%20de%20sus%20Productos"
+              >Whatsapp</a
+            >
+          </span>
+          <div class="span_magin">@Todos los Derechos NECH</div>
+        </div>
+        <div class="datos_creador">
+          <span>Creador Pagina:</span>
+          <a href="https://redes-binarias.com.mx/">Redes-Binarias.com.mx</a>
+        </div>
+      </div>
+    </footer>
   </body>
+  <script src="../js/slider.js"></script>
+  <script src="../js/product.js"></script>
+  <script src="../js/hamburger.js"></script>
 </html>
