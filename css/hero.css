@@ -43,6 +43,7 @@
 }
 .button--hero {
   width: 220px;
+  margin-top: 5px;
 }
 .hero_buttons {
   flex-wrap: wrap;

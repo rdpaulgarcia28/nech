@@ -151,7 +151,12 @@
     "title": "Anillos De Piston Chevrolet Corsa,tornado 1.8 Lts",
     "price": "410",
     "description": "Anillo para motor 1.8 lts , tornado, corsa modelos 03 al 13 medidas 1.2 mm compresión superior,1.2 mm compresión inferior 2.0 mm control de aceite Diametro del cilindro std 80.5mm Material del primer anillo de cl.presiln Cromo",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_800392-MLM73725155909_122023-O.webp"
+    "img": [
+      "https://http2.mlstatic.com/D_NQ_NP_800392-MLM73725155909_122023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_645056-MLA73725571237_122023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_681196-MLM73630429160_122023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_855669-MLM73630284596_122023-O.webp"
+    ]
   },
   {
     "codigo": "P0017",
@@ -179,14 +184,22 @@
     "title": "Cartucho Turbo Tfsi 2.0 K03 A3, Passat",
     "price": "2,600",
     "description": "Turbo para motores tfsi 2.0,, aplica para vehículos audi , volkswagen, Marca con presedentes en vatios países, importada para México para durar,, nuestra competencia no puede ofrecer nuestros precios por el volumen de compra que tenemos,, y contamos con garantia de satisfacción, en caso algún detalle o dudas no lo pienses más formula tu pregunta",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_701309-MLM75494400253_032024-O.webp"
+    "img": [
+      "https://http2.mlstatic.com/D_NQ_NP_701309-MLM75494400253_032024-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_625278-MLM75342318486_032024-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_964266-MLM75494370465_032024-O.webp"
+    ]
   },
   {
     "codigo": "P0021",
     "title": "Llave Impactó 3/4 3100nm Inalambrica",
     "price": "7,900",
     "description": "Llave impacto PONTENTE USO INDUSTRIAL DE PILA ION LITIO incluye 2 pilas y cargador... potencia de 120nm reales ojo reales ..es de uso heavy duty pesada no es de la baratas de uso domestico",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_652886-MLM75411343137_032024-O.webp"
+    "img": [
+      "https://http2.mlstatic.com/D_Q_NP_652886-MLM75411343137_032024-R.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_820053-MLM75411558241_032024-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_836900-MLM75261836126_032024-O.webp"
+    ]
   },
   {
     "codigo": "P0022",
@@ -256,7 +269,14 @@
     "title": "Tapa Punterias 2.7 Toyota",
     "price": "600",
     "description": "Por partes motor toyota 2.7 pickup cabeza vendida ..pregunte por demás partes...bielas cigüeñal. Tapas ... balanceadores 3rz",
-    "img": "https://http2.mlstatic.com/D_NQ_NP_927964-MLM48970205226_012022-O.webp"
+    "img": [
+      "https://http2.mlstatic.com/D_NQ_NP_927964-MLM48970205226_012022-O.webp",
+      "https://http2.mlstatic.com/D_Q_NP_869376-MLM50018169868_052022-R.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_869376-MLM50018169868_052022-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_767507-MLM50018322118_052022-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_724237-MLM50018317140_052022-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_845460-MLM50018269441_052022-O.webp"
+    ]
   },
   {
     "codigo": "P0032",
