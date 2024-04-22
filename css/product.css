@@ -62,4 +62,10 @@
   .product_inf {
     width: 300px;
   }
+  .swiper-button-prev {
+    display: none;
+  }
+  .swiper-button-next {
+    display: none;
+  }
 }
