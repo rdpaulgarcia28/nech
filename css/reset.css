@@ -41,12 +41,12 @@
   --color-primario: #0052d4;
   --color-secuendario: #ffffff;
   /*--color-degradado: linear-gradient(to left, #6fb1fc, #4364f7, #0052d4);*/
-  --Tipografia-buttons: "Syne-Bold";
-  --Tipografia-title: "Poppins-ExtraBold";
+  --Tipografia-buttons: "";
+  --Tipografia-title: "";
   --Tipografia-text: "Montserrat-Thin";
   --Tipografia-Color: white;
-  --Tipografia-subtitulo: "Poppins-Bold";
-  --Tipografia-span: "Montserrat-Medium";
+  --Tipografia-subtitulo: "";
+  --Tipografia-span: "";
 }
 
 html {
@@ -108,9 +108,9 @@ a {
 
 p {
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--Tipografia-text);
-  color: var(--Tipografia-Color);
+  color: rgb(255, 255, 255);
   text-align: justify;
 }
 

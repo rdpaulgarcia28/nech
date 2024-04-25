@@ -33,6 +33,7 @@
 }
 .promotion_text {
   padding: 15px 0;
+  text-align: center;
 }
 .promotion_buttons {
   flex-wrap: wrap;
