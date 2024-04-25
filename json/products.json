@@ -421,5 +421,34 @@
     "price": "13,800",
     "description": "Incluye block rectificado y anillado , cigueñal rectificado..bomba de aceite nueva, bomba de agua nueva., metales",
     "img": "https://http2.mlstatic.com/D_NQ_NP_638836-MLM71758791870_092023-O.webp"
+  },
+  {
+    "codigo": "P0051",
+    "title": "Cabeza Tornado , Corsa, 1.8 Buzo Delgado 2006 2011",
+    "price": "6,300",
+    "description": "Cabeza nueva.. desnuda no incluye resortes ya que puedes usar los de tu cabeza.. evita problemas de exceso de cepillados o utilizar empaques altos.. esta cabeza aplica para los modelos con buzo delgado.. cualquier duda estamos para apoyarte,Oferta de 6300 por este mes de abril Garantía del vendedor: 6 meses",
+    "img": [
+      "https://http2.mlstatic.com/D_Q_NP_634608-MLM70184258547_062023-R.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_751775-MLM70184258553_062023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_835551-MLM70184014379_062023-O.webp"
+    ]
+  },
+  {
+    "codigo": "P0052",
+    "title": "Cigueñal Corsa, Tornado, 1.8 Gm",
+    "price": "4,300",
+    "description": "Cigueñal para corsa tornado.meriva.. modelos 2005 a 2016 1.8 lts nuevo en su caja std Garantía del vendedor: 1 meses",
+    "img": [
+      "https://http2.mlstatic.com/D_NQ_NP_838398-MLM54813895875_042023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_959520-MLM71461859888_092023-O.webp",
+      "https://http2.mlstatic.com/D_NQ_NP_825194-MLM71508228043_092023-O.webp"
+    ]
+  },
+  {
+    "codigo": "",
+    "title": "",
+    "price": "",
+    "description": "",
+    "img": ["", "", ""]
   }
 ]
